@@ -60,7 +60,7 @@ body * {
 
 .left-login>h1 {
     color: #77ffc0;
-    font-size: 2vw;
+    font-size: 35px;
 }
 
 .left-login-image {
@@ -145,9 +145,9 @@ body * {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 24px;
+    gap: 20px;
     background: #201b2c;
-    width: 100%;
+    padding-top: 50px;
     
 }
 
@@ -156,14 +156,14 @@ body * {
     padding-top: 80px;
     margin-bottom: 30px;
     font-weight: 800;
-    font-size: 2vw;
+    font-size: 35px;
     color: #77ffc0
 
 }
 
 .footer-info {
     font-weight: 350;
-    font-size: 1vw;
+    font-size: 20px;
     padding-bottom: 5px;
     color: #77ffc0;
     letter-spacing: 1,5px;
@@ -184,12 +184,23 @@ body * {
         flex-direction: column;
     }
 
+    .header-menu-item {
+        font-size: 15px;
+        padding: 15%
+    }
+
+
     .main-login {
         flex-direction: column;
     }
 
     .left-login>h1 {
-        display: none;
+        display: flex;
+        font-size: 25px;
+        flex-direction: column;
+        margin: 20px;
+        
+        
     }
 
     .left-login {
@@ -208,7 +219,25 @@ body * {
 
     .card-login {
         width: 90%;
+        
     }
+
+    .footer {
+        
+    }
+
+    .footer-title {
+        font-size: 25px;
+        align-items: center;
+        
+    }
+
+    .footer-info {
+        font-size: 15px;
+        margin: 5%;
+        align-items: center;
+    }
+
 
     
     

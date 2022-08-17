@@ -182,23 +182,26 @@ body * {
     
     .header-menu {
         flex-direction: column;
+        margin: 20px;
     }
 
     .header-menu-item {
         font-size: 15px;
-        padding: 15%
+        padding: 15%;
+        
     }
 
 
     .main-login {
         flex-direction: column;
+        padding-top: 20px;
     }
 
     .left-login>h1 {
         display: flex;
         font-size: 25px;
         flex-direction: column;
-        margin: 20px;
+        margin: 20px
         
         
     }
@@ -214,7 +217,7 @@ body * {
     }
 
     .left-login-image {
-        width: 20vw;
+        width: 65vw;
     }
 
     .card-login {
